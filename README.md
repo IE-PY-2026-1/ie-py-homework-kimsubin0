@@ -41,7 +41,7 @@
 ### **📁 증빙 자료:**
   * [1차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
 https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/4232c2d8bf21cd775b6ccc1c6fd40db27e64b8d4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%82%B4%EC%9A%A91.pdf
-
+https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/e8b7660de75423d94f47384f8cb107dd4e174955/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%82%B4%EC%9A%A92.pdf
 <br>
 
 ## 🟩 [2차 과제: V1.0] 입출력 + 리스트 + 조건문 - 향후 작성 예정
