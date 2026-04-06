@@ -40,8 +40,7 @@
     
 ### **📁 증빙 자료:**
   * [1차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
-file:///C:/Users/yohan/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%82%B4%EC%9A%A91.pdf
-file:///C:/Users/yohan/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%ED%8C%8C%EC%9D%B4%EC%8D%AC%20%EB%82%B4%EC%9A%A92.pdf
+
 
 <br>
 
