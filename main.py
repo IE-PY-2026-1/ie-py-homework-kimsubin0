@@ -82,7 +82,42 @@ for i in rage(day_count):
     grade = '한겨울 코디'
     
   # 논리 연산자 and, or + 문자열 비교로 활동 유형 반영
-   if rain > 10 and act == '실외' :
+   if rain > 10 and act == '실외':
+     extra = '우산 필수 + 방수 재킷 추천'
+   elif rain > 0 or act == '운동':
+     extra = '모자 또는 가벼운 방풍 재킷 추천'
+   else:
+     extra = '기본 착장으로 충분해요'
+     
+     # 추위 민감도 반영 - 중첩 if문
+     if cold_sensitivity >= 4.0:
+       if temp < 20:
+         outfit += '+ 얇은 조끼 추가'
+
+  # 독립적인 if문 - 특별 코디 칭호 부여
+    title = ''
+    if temp >= 28 and act == '실외':
+      title = '여름 완벽 코디 달성!'
+  
+    print(f' [{total_days}일차] 기온: {temp}℃ | 활동: {act}')
+    print(f' 추천 옷차림: {outfit}')
+    print(f' 코디: {grade}')
+    print(f' 액세서리: {extra}')
+    if tile:
+      print(f' {title}')
+
+# 최종 요약
+print(f'< 최종 요약 >')
+print(f'{user_name}님 ({user_age}세) | 추위 민감도: {cold_sensitivity}')
+print(f'총 {total_days}일 분석 | 평균 기온: {ave_temp:.1f}℃')
+
+# 독립적인 if문 - 전체 날씨 총평
+if ave_temp >= 25:
+  print('전반적으로 더운 날씨입니다. 수분 보충 잊지 마세요.')
+if ave_temp < 10:
+  print('전반적으로 추운 날씨입니다. 따뜻하게 입으세요.')
+
+   
 
   
     
