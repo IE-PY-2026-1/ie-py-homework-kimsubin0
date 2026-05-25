@@ -83,19 +83,19 @@ https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/e8b7660de75423d94f
     
 ### **🤖 AI 파트너십 과정**
  1. **내용 1**
-    * **프롬프트 요약:while True로 메인 메뉴를 만들고 싶은데, 기존 2차 코드의 기능들을 함수로 나누는 방법을 알려줘** 
-    * **적용 내용:입력/조회/분석 기능을 각각 def로 분리하고, while문 안에서 함수 호출 위주로 메인 로직을 간결하게 구성하는 구조를 적용함**
+    * **프롬프트 요약:** while True로 메인 메뉴를 만들고 싶은데, 기존 2차 코드의 기능들을 함수로 나누는 방법을 알려줘 
+    * **적용 내용:** 입력/조회/분석 기능을 각각 def로 분리하고, while문 안에서 함수 호출 위주로 메인 로직을 간결하게 구성하는 구조를 적용함
  2. **내용 2**
-    * **프롬프트 요약:함수 안에서 리스트를 수정할 때 global을 써야하는 경우가 언제야?** 
-    * **적용 내용:temperatures, activities, rainfalls 같이 프로그램 전체에서 공유하는 리스트는 전역 변수로 선언하고, total_days처럼 누적 카운팅이 필요한 변수에 global키워드를 적용함.** 
+    * **프롬프트 요약:** 함수 안에서 리스트를 수정할 때 global을 써야하는 경우가 언제야?*
+    * **적용 내용:** temperatures, activities, rainfalls 같이 프로그램 전체에서 공유하는 리스트는 전역 변수로 선언하고, total_days처럼 누적 카운팅이 필요한 변수에 global키워드를 적용함.
 ### **🛠️ Troubleshooting & 기술 회고:**
-  1. **문제 1: 중첩 if문에서 들여쓰기 오류 발생(IndentationError)** 
-     * **원인: rain 조건 체크하는 if-elif 블록 안에서 cold_sensitivity 조건을 처리하는 중첩 if문의 들여쓰기 칸수가 맞지 않아 Indentation Error발생. 특히 extra 변수 할당 이후 이어지는 코드 블록이 의도치 않게 elif안으로 들어가는 문제가 있었음.** 
-     * **해결: 각 if/elif/else블록의 들여쓰기 깊이를 4칸 단위로 일관되게 맞추고, 중첩 if문은 상위 블록보다 정확히 4칸 더 들여쓰도록 수정함. 파이썬은 들여쓰기 자체가 코드 구조를 결정하기 때문에 중괄호 없이도 블록이 구분된다는 점을 이번에 확실히 체득함**
+  1. **문제 1:**  중첩 if문에서 들여쓰기 오류 발생(IndentationError)
+     * **원인:** rain 조건 체크하는 if-elif 블록 안에서 cold_sensitivity 조건을 처리하는 중첩 if문의 들여쓰기 칸수가 맞지 않아 Indentation Error발생. 특히 extra 변수 할당 이후 이어지는 코드 블록이 의도치 않게 elif안으로 들어가는 문제가 있었음.
+     * **해결:** 각 if/elif/else블록의 들여쓰기 깊이를 4칸 단위로 일관되게 맞추고, 중첩 if문은 상위 블록보다 정확히 4칸 더 들여쓰도록 수정함. 파이썬은 들여쓰기 자체가 코드 구조를 결정하기 때문에 중괄호 없이도 블록이 구분된다는 점을 이번에 확실히 체득함
      
 ### **📁 증빙 자료:**
-  * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
-  * [3차과제_실행결과.jpg]
+  * [3차_AI협업캡처.pdf 첨부 완료] https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/main/3%EC%B0%A8%EA%B3%BC%EC%A0%9C%20AI%ED%98%91%EC%97%85.pdf
+  * [3차과제_실행결과.jpg] https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/main/3%EC%B0%A8%EA%B3%BC%EC%A0%9C%20%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC.pdf
 <br>
 
 ### 🟥 [4차 과제: V4.0] 모듈화 및 데이터 확장 (배열과 함수) - 🌟최종 완성 -- 향후 작성 예정
