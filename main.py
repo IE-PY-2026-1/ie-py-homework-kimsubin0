@@ -156,6 +156,22 @@ print('날씨와 활동 유형에 맞는 옷차림을 추천해드리겠습니�
 input_user_info()
 
 while True:
+    print_menu()
+    choice = input('메뉴를 선택하세요 (1~5) : ')
+
+    if choice == '1':
+        input_weather_data()
+    elif choice == '2':
+        show_weather_data()
+    elif choice == '3':
+        analyze_statistics()
+    elif choice == '4':
+        recommend_outfit(cold_sensitivity)
+    elif choice == '5':
+        print(f'\n{user_name}님, 프로그램을 종료합니다. 오늘도 좋은 하루 되세요.')
+        break
+    else:
+        print('\n올바른 메뉴 번호를 입력해주세요. (1~5)')
 
 
 
