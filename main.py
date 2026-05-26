@@ -1,20 +1,93 @@
 # 파일이름 : 사용자 입력 기반 날씨와 활동유형 맞춤 옷차림 추천 시스템
 # 작 성 자 : 60251763김수빈
 
-# 변수 선엄
-version = 1.0
-total_days = 0
-program_name = 0
-codi_score = 0
+# 전역변수 선언
+version = 2.0
+program_name = '날씨 맞춤 옷차림 추천 시스템'
+
+temperatures = []
+activities = []
+rainfalls = []
+
+# 사용자 정보 전역변수
+user_name = ''
+suer_age = 0
 cold_sensitivity = 0.0
+total_days = 0
+
+# 함수 정의
+#[함수1] 메인 메뉴 출력 함수
+def print_menu():
+    print()
+    print(f'======{program_name}V{version}======')
+    print('1. 날씨 데이터 입력')
+    print('2. 날씨 데이터 조회')
+    print('3. 통계 분석')
+    print('4. 옷차림 추천')
+    print('5. 종료')
+    print('========================')
+# [함수2] 사용자 기본 정보 입력 함수
+def input_user_info():
+    global user_name, user_age, cold_sensitivity
+    print('\n[사용자 기본 정보 입력]')
+    user_name = input('이름을 입력하세요 : ')
+    user_age = int(input('나이를 입력하세요: ')
+    cold_sensitivity = float(input('추위 민감도를 입력하세요(1.0~5.0) : '))
+    print(f'\n{user_name}님, 반갑습니다!')
+# [함수3] 날씨 데이터 입력 함수
+def input_weather_data():
+    global total_days, temperatures, activities, rainfalls
+    if user_name =='':
+      print('\n먼저 사용자 정보를 입력해주세요. (메뉴 1번 선택)')
+      return
+    day_count = int(input('몇 일치 날씨 데이터를 입력하시겠습니까? (최소 3일) : ')
+
+    if day_count <3:
+      day_count = 3
+      print('최소 3일 이상의 데이터를 입력해야 합니다. 3일로 설정합니다.')
+    print('\n< 날씨 및 활동 정보 입력 >')
+
+    for i in range(day_count):
+      print(f'\n[ {total_days + i + 1}일 차 ]')
+      temp = float(input('기온(℃) : '))
+      rainfall = int(input('강수량(mm) :'))
+      activity = input('활동 유형 (실내/실외/운동) : ')
+
+      temperatures.append(temp)
+      rainfalls.append(rainfall)
+      activities.append(activity)
+
+    total_days += day_count
+    print(f'\n총 {total_days}일치 데이터가 저장되었습니다.')
+
+# [함수4] 날씨 데이터 조회 함수
+def show_weather_data():
+    if total_days == 0:
+      print('\n저장된 날씨 데이터가 없습니다. 먼저 데이터를 입력해주세요.')
+      print(f'\n<{user_name}님의 날씨 데이터 조회>')
+      print(f'{'일차':<6} {'기온(℃)':<10} {'강수량(mm)':<12} {'활동 유형'}')
+      print('-'*40)
+
+      # for문으로 저장된 데이터 순서대로 출력
+      for i in range(total_days):
+        print(f'{i+1}일차 {temperatures[i]:<10} {rainfalls[i]:<12} {activities[i]}')
+
+# [함수5] 통계 분석 함수
+def analyze_statistics():
+    if tatal_days == 0:
+      print('\n저장된 데이터가 없습니다. 먼저 데이터를 입력해주세요.')
+      return
+
+    max_temp = max(temperatures)
+    min_temp = min(temperatures)
+    avg_temp = sum(temperatures)/len(temperatures)
+                    
+
 
 print(f'{program_name} V{version}')
 print('날씨와 활동 유형에 맞는 옷차림을 추천해드리겠습니다.')
 
 # 사용자 기본 정보 입력
-user_name = input('이름을 입력하세요 : ')
-user_age = int(input('나이를 입력하세요: ')
-cold_sensitivity = float(input('추위 민감도를 입력하세요(1.0~5.0) : '))
 
 # 입력 횟수 지정
 day_count = int(input('몇 일치 날씨 데이터를 입력하시겠습니까? (최소 3일) : '))
