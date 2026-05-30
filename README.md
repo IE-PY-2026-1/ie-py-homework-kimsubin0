@@ -101,9 +101,9 @@ https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/e8b7660de75423d94f
 ### 🟥 [4차 과제: V4.0] 모듈화 및 데이터 확장 (배열과 함수) - 🌟최종 완성
 ### **✨4차 과제 업데이트 내용:**
   * 내용1) 이중 리스트(2D List)를 활용하여 날씨 데이터를 [일차, 기온, 강수량, 활동유형]형태로 통합 관리하고 append()로 누적 저장.
-  * 내용2) for row in weather_data: 와 인덱싱(row[0], row[1] ...)을 활용하여 이중 리스트를 순회하고 데이터를 표 형태로 출력
-  * 내용3) with open()을 사용하여 이중 리스트 데이터를 CSV파일로 저장하는 기능 추가(메뉴 5번 선택 시 저장 + 종료(6) 시 자동 저장)
-  * 내용4) while True + try-except 구문을 총 5곳(나이/추위 민감도/ 일수/ 기온/ 강수량)에 적용하여 잘못된 입력 시 프로그램이 강제 종료되지 않고 재입력을 받도록 처리
+  * 내용2) for row in weather_data: 와 인덱싱(row[0], row[1] ...)을 활용하여 이중 리스트를 순회하고 데이터를 표 형태로 출력.
+  * 내용3) with open()을 사용하여 이중 리스트 데이터를 CSV파일로 저장하는 기능 추가(메뉴 5번 선택 시 저장 + 종료(6) 시 자동 저장).
+  * 내용4) while True + try-except 구문을 총 5곳(나이/추위 민감도/ 일수/ 기온/ 강수량)에 적용하여 잘못된 입력 시 프로그램이 강제 종료되지 않고 재입력을 받도록 처리.
     
 ### **🤖 AI 파트너십 과정**
  1. **내용 1**
@@ -120,5 +120,5 @@ https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/e8b7660de75423d94f
      
 ### **📁 증빙 자료:**
   * [4차_AI협업캡처.pdf 첨부 완료] https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/main/4%EC%B0%A8%EA%B3%BC%EC%A0%9C_AI%ED%98%91%EC%97%85.pdf
-  * [4차과제_실행결과.jpg]
+  * [4차과제_실행결과.jpg] https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/main/4%EC%B0%A8%EA%B3%BC%EC%A0%9C_%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC.pdf
 <br>
