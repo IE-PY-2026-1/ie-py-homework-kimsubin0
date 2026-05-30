@@ -119,6 +119,6 @@ https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/e8b7660de75423d94f
      * **해결:** return 이후의 출력 코드들을 if 블로 바깥으로 내보내서 문제를 해결함.(return 아래 코드가 if문과 같은 레벨에 있도록 들여쓰기 조정)
      
 ### **📁 증빙 자료:**
-  * [4차_AI협업캡처.pdf 첨부 완료] 
+  * [4차_AI협업캡처.pdf 첨부 완료] https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/main/4%EC%B0%A8%EA%B3%BC%EC%A0%9C_AI%ED%98%91%EC%97%85.pdf
   * [4차과제_실행결과.jpg]
 <br>
