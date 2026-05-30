@@ -1,4 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/qR-atX5d)
+S[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/qR-atX5d)
 # 🐍 [2026-01] 나만의 파이썬 소프트웨어 개발 프로젝트
 
 ## 1. 시나리오 제목
@@ -100,12 +100,18 @@ https://github.com/IE-PY-2026-1/ie-py-homework-kimsubin0/blob/e8b7660de75423d94f
 
 ### 🟥 [4차 과제: V4.0] 모듈화 및 데이터 확장 (배열과 함수) - 🌟최종 완성 -- 향후 작성 예정
 ### **✨4차 과제 업데이트 내용:**
-  * 내용.
+  * 내용1) 이중 리스트(2D List)를 활용하여 날씨 데이터를 [일차, 기온, 강수량, 활동유형]형태로 통합 관리
+  * 내용2) 중첩 for문으로 이중 리스트를 순회하여 날씨 데이터 표 형태로 출력
+  * 내용3) with open()을 사용하여 날씨 데이터를 CSV파일로 저장하는 기능 추가(메뉴 5번+종료 시 자동 저장)
+  * 내용4) try-except 예외 처리를 5곳에 적용하여 프로그램 비정상 종료 방지
     
 ### **🤖 AI 파트너십 과정**
  1. **내용 1**
-    * **프롬프트 요약:**  ... 
-    * **적용 내용:** ....
+    * **프롬프트 요약:**  날씨 맞춤 옷차림 추천 시스템에서 이중 리스트로 날씨 데이터를 관리하려면 이중 리스트를 어떤 구조로 적용해야할까? 
+    * **적용 내용:** [일차, 기온, 강수량, 활동유형] 구조를 배우고 weather_data에 적용함.
+ 2. **내용 2** 
+    * **프롬포트 요약:** try-except를 어디에 어떻게 적용해야할까? 예시 보여줘.
+    * **적을 내용:** 나이/추위 민감도/ 일수/ 기온/ 파일 저장 총 5곳에 try-except를 적용하여 ValueError와 Exception을 처리함.
     
 ### **🛠️ Troubleshooting & 기술 회고:**
   1. **문제 1:** ...
